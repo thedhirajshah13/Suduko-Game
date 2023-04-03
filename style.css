@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #111;
 }
 .game{
     padding: 5% 7%;
@@ -54,4 +55,8 @@
 
 #result{
     display: none;
+}
+.res-announce{
+    color: green;
+    font-size: 55px;
 }

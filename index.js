@@ -47,12 +47,12 @@ const draw = () => {
 const winner = (Letter) => {
     if (Letter == "X") {
         main.setAttribute("id", "result")
-        resannounce.innerHTML = "X Wins!"
+        resannounce.innerHTML = "X Wins 🏅🎷"
         restartBtn.innerHTML = "Play Again"
     }
     else if (Letter == "O") {
         main.setAttribute("id", "result")
-        resannounce.innerHTML = "O Wins!"
+        resannounce.innerHTML = "O Wins 🏅🎷 "
         restartBtn.innerHTML = "Play Again"
     }
 }
